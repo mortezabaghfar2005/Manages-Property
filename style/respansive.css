@@ -1,0 +1,317 @@
+
+@media (max-width:1252px) {
+    .nav-center{
+        margin-left: 0;
+    }
+    .nav-btn{
+        gap: 10px;
+    }
+    .nav-items{
+        gap: 25px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content-left{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-information{
+        text-align: center;
+    }
+    .content-btn{
+        margin-right: 95px;
+    }
+    .steps-item__text{
+        font-size: 14px;
+    }
+    .project-text__steps{
+        text-align: center;
+    }
+    .project-title__steps{
+        font-size: 30px;
+    }
+    .project-logo{
+        margin-top: 0;
+    }
+    .project-items{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .transfer-title__project{
+        font-size: 30px;
+    }
+    .transfer-text{
+        font-size: 14px;
+    }
+    .transfer-img{
+        width: 450px;
+    }
+    .content-Subscribe{
+        height: 850px;
+    }
+    .content-title__Subscribe{
+        margin-bottom: 60px;
+    }
+    .content-left__Subscribe{
+        text-align: center;
+    }
+    .content-btn__Subscribe{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:1010px) {
+    .nav-btn{
+        display: none;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content-left{
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .content-title{
+        font-size: 40px;
+    }
+    .content-information{
+        text-align: center;
+    }
+    .content-btn{
+        margin-right: 90px;
+    }
+    .content-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-right img{
+        width: 400px;
+    }
+    .steps-text{
+        font-size: 40px;
+    }
+    .steps-item__text{
+        font-size: 12px;
+    }
+    .steps-item__title{
+        font-size: 20px;
+    }
+    .transfer-title{
+        font-size: 30px;
+    }
+    .transfer-information{
+        gap: 50px;
+    }
+    .transfer-number{
+        font-size: 50px;
+    }
+    .transfer-title__project{
+        font-size: 27px;
+    }
+    .transfer-text{
+        font-size: 12px;
+    }
+    .transfer-img{
+        width: 320px;
+        height: 450px;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .nav-center{
+        display: none;
+    }
+
+    .nav-items__mobile{
+        position: fixed;
+        height: 100%;
+        width: 200px;
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 16px;
+        gap: 10px;
+        border: 1px solid var(--dark);
+        background-color: var(--dark);
+        transform: translateX(-350px);
+        transition: all 250ms ease-in-out;
+    }
+    .label-nav{
+    display: block;
+    margin-left: 400px;
+    }
+    .nav-menu{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    }
+    .container{
+    padding: 0;
+    }
+    .label-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: -33px;
+        margin-right: 20px;
+    }
+    .nav-title__mobile::after{
+        margin-left: -148px;
+    }
+
+    .nav-btn__mobile{
+        display: flex;
+        border: none;
+    }
+
+    .content-title{
+        font-size: 30px;
+    }
+    .content-left{
+        margin-left: 0;
+    }
+    .steps-text{
+        font-size: 25px;
+    }
+    .steps-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .project-text{
+        text-align: center;
+    }
+    .project-title{
+        text-align: center;
+        font-size: 30px;
+    }
+    .transfer-title{
+        font-size: 25px;
+    }
+    .transfer-project{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .transfer-btns{
+        justify-content: center;
+    }
+    .transfer-btn{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .transfer-number{
+        font-size: 40px;
+    }
+    .transfer-number__text{
+        font-size: 12px;
+    }
+    .transfer-img{
+        margin-top: 20px;
+        height: 400px;
+    }
+    .content-Subscribe{
+        height: 650px;
+    }
+    .Subscribe-img{
+        width: 400px;
+    }
+    .content-left__Subscribe{
+        margin-left: 0;
+    }
+    .content-title__Subscribe{
+        font-size: 30px;
+    }
+    .content-information__Subscribe{
+        font-size: 14px;
+    }
+    .content-btn__Subscribe{
+        margin-left: 40px;
+    }
+    
+}
+
+@media (max-width:480px) {
+    .content-information{
+        font-size: 11px;
+        white-space: nowrap;
+    }
+    .content-right img{
+        width: 200px;
+    }
+    .content-btn{
+        justify-content: center;
+        align-items: center;
+        margin-right: 95px;
+        width: 200px;
+    }
+    .content-title{
+        font-size: 20px;
+    }
+    .steps-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .project-title__item{
+        font-size: 20px;
+    }
+    .project-text__item{
+        font-size: 12px;
+    }
+    .transfer-title{
+        font-size: 19px;
+    }
+    .transfer-title__project{
+        font-size: 20px;
+    }
+    .transfer-text{
+        font-size: 10px;
+    }
+    .transfer-img{
+        width: 300px;
+    }
+    .content-Subscribe{
+        height: 540px;
+    }
+    .content-title__Subscribe{
+        font-size: 20px;
+    }
+    .content-texe__Subscribe{
+        font-size: 10px;
+    }
+    .content-information__Subscribe{
+        font-size: 9px;
+    }
+    .content-btn__Subscribe{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+    }
+    .content-left__btn{
+        margin-left: 240px;
+    }
+    .Subscribe-img{
+        width: 300px;
+    }
+}
