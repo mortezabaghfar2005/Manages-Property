@@ -1,4 +1,4 @@
-# ![Manage Property] (<images/svg/Group 1.svg>)Manage Property
+# ![Manage Property](<images/svg/Group 1.svg>) Manage Property
 
 ## In This Project I Used 'HTML', 'CSS' and 'JS'.
 
