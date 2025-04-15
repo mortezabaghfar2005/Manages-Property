@@ -6,4 +6,4 @@
 
 ##### You Can See My Online Project
 
-<a href="/practice/index.html"> Online Project Manage Property
+<a href="http://127.0.0.1:5500/"> Online Project Manage Property
