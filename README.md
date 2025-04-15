@@ -6,4 +6,4 @@
 
 ##### You Can See My Online Project
 
-<a href="index.html"> Online Project Manage Property
+<a href="/practice/index.html"> Online Project Manage Property
